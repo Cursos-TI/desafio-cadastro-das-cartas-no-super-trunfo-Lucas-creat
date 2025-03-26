@@ -7,7 +7,7 @@
     int area;
     int pib;
     int pontosturisticos;
-    float populacaopercapita;
+    float densidade;
     float pibpercapita;
 
     printf("Qual código da cidade?\n");
@@ -30,10 +30,10 @@
     printf("PIB da cidade: %d\n", pib);
     printf("Pontos turisticos: %d\n", pontosturisticos);
 
-    populacaopercapita = (float) populacao / area;
+    densidade = (float) populacao / area;
     pibpercapita = (float) populacao / pib;
 
-    printf("População percapita: %.3f\n", populacaopercapita);
+    printf("Densidade populacional: %.3f\n", densidade);
     printf("PIB percapita: %.3f\n", pibpercapita);
 
     return 0;
